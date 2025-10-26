@@ -1,15 +1,11 @@
-
 import './App.css';
-import Password from './password.js'
-import StudentList from './StudentList.js';
+import Confirmation from './Confirmation';
+
 function App() {
   return (
-    
-      // <Password></Password>
-      <StudentList></StudentList>
-
-
-    
+    <div>
+      <Confirmation />
+    </div>
   );
 }
 
